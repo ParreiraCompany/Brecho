@@ -1,0 +1,11 @@
+{
+  "name": "brecho-parreira",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Brechó Parreira — Fase 1 (catálogo público e gestão privada com Supabase)",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "check": "node --check src/main.js && node --check src/lib/api.js && node --check src/ui/public.js && node --check src/ui/owner.js"
+  }
+}
